@@ -1,0 +1,541 @@
+/* COLORS
+
+#d3d3d3 = lightgray
+#a9a9a9 = darkgray
+#d1d1d1 = gray82
+#8a8a8a = gray54
+#3a3a3a = dark red
+#074fa1 = endeavour/cyan blue 
+#12a112 = la palma/luminous green
+
+*/
+
+/* FONT-STYLES 
+font-family: 'Cantarell', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    font-size: 100%;
+    background-color: #d3d3d3;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navsection {
+    width: 100vw;
+}
+
+.navsection_top_bar_container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navsection_left_text_container {
+    width: 60%;
+    height: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.navsection_text {
+    width: 535px;
+    height: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #a9a9a9;
+    font-family:  'Ubuntu', sans-serif;
+    font-weight: 300;
+    border: 1px solid #a9a9a9;
+}
+
+.navsection_right_social_container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navsection_social_info-brand_container {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;   
+}
+
+.navsection_social_brand {
+    border-radius: 20px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;  
+}
+
+.navsection_social_brand:hover {
+    font-size: 30px;
+}
+
+hr {
+    width: 80%;
+    margin-left: 120px;
+}
+
+/* end_navsection_top */
+
+/* start-navsection_bottom */
+
+.navsection_bottom-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.navsection_container_left {
+    width: 38%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navsection_logo_img_container {
+    width: 160px;
+    height: 100%;
+}
+
+.navsection_logo_img {
+    width: 100%;
+    height: 100%;
+    object-fit: 160px 100px;
+}
+
+.company-info-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 130px;
+    z-index: 1;
+}
+
+.company-name {
+    width: 360px;
+    font-size: 44px;
+    letter-spacing: 1.35px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+}
+
+.company-slogan {
+    width: 300px;
+    font-size: 18px;
+    padding: 2px;
+    margin-top: -10px;
+    letter-spacing: 1.35px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+}
+
+.navsection_container_right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.navsection_links_container {
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.navsection_sub_link {
+    text-decoration: none;
+    color: #074fa1;
+    font-size: 18px; 
+    padding: 10px; 
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 400;
+}
+
+.navsection_sub_link:hover {
+    text-decoration: none;
+    color: #12a112dd;
+    border: 2px solid #12a112dd;   
+}
+
+/* end-navsection */
+
+                                                      /* start-submit-listings */
+
+.section_submit-listings {
+    width: 100vw;
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right,
+        #ffffff73,
+        #ffffffec
+    ), url(../images/submit-listings-bg.avif);
+    background-position-x: 20;
+    background-size: cover;
+}
+
+.submit-listigs_back-down-container {
+    margin-top: 40px;
+}
+
+.back-down {
+    padding: 14px 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.back-down:hover {
+    border-radius: 50%;
+    background-color: #ffffff8d;
+    font-size: 34px;
+}
+
+.to-bottom {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.section_submit-listings_items-container {
+    width: 90vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.submit-listings_title-heading_container {
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    background-color: #ffffff8d;
+    border-top-left-radius: 150px;
+    animation-name: move-in-left;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(-2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.submit-listings_title {
+    font-size: 45px;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 800;
+}
+
+.submit-listings_heading {
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+.submit-listings_packages_container {
+    width: 100%;
+    height: 280px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff8d;
+    border-bottom-right-radius: 150px;
+    animation-name: move-in-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-0);
+    }
+}
+
+.submit-listings_text {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+.submit-listings_text-abc {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+.submit-listings_info-container {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_submit-listings_package-items {
+    width: 32%;
+    padding: 14px;
+    text-align: center;
+    background-color: #3a3a3a95;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.submit-listings_info-container .section_submit-listings_package-items:nth-child(1) {
+    animation-name: move-in-bottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+.submit-listings_info-container .section_submit-listings_package-items:nth-child(2) {
+    animation-name: move-in-bottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+
+.submit-listings_info-container .section_submit-listings_package-items:nth-child(3) {
+    animation-name: move-in-bottom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+}
+
+@keyframes move-in-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    80% {
+        transform: translateY(-2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.section_submit-listings_benefits_text {
+    line-height: 1.5;
+    background-color: #ffffff8d;
+}
+
+.submit-listings_standard-plan_heading {
+    font-size: 22px;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.submit-listings_standard-plan {
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.submit-listings_plan {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.submit-listings_smaller-font {
+    font-size: 12px;
+    font-weight: 300;
+    color: #2c2c2c;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 200;
+}
+
+.section_submit-listings_package-items_container {
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff8d;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 50px;
+}
+
+.section_submit-listings_package-items_benefits {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.section_submit-listings_benefits_listings {
+    font-size: 16px;
+    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+}
+
+                                                     /* end-submit-listings */
+
+/* start-footersection */
+
+.footersection {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.footer_container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_text {
+    width: 36%;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footersection_container-wrapper {
+    width: 25%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footersection_logo_img_container {
+    width: 120px;
+    height: 100px;
+}
+
+.footersection_logo_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer-company-info-container {
+    position: absolute;
+    left: 100px;
+}
+
+.company-name_abc {
+    font-size: 24px;
+    letter-spacing: 1.35px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+}
+
+.company-slogan-abc {
+    font-size: 12px;
+    letter-spacing: 1.35px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+}
+
+.back-to-top {
+    width: 20%;
+    margin-right: 40px;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    border-radius: 50%;
+    background-color: #d1d1d195;
+    font-size: 34px;
+}
+
+.to-top {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* end-footersection */
