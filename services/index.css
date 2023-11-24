@@ -4,7 +4,6 @@
 #a9a9a9 = darkgray
 #d1d1d1 = gray82
 #8a8a8a = gray54
-#3a3a3a = dark red
 #074fa1 = endeavour/cyan blue 
 #12a112 = la palma/luminous green
 
@@ -286,7 +285,7 @@ hr {
     font-size: 35px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color: #8a8a8a;
 }
 
 .services_section_left_right_container {
@@ -359,7 +358,7 @@ hr {
     font-size: 30px;
     font-family: 'Cantarell', sans-serif;
     font-weight: 600;
-    color: #3a3a3a;
+    color: #8a8a8a;
 }
 
 .services_text_info {
@@ -418,7 +417,7 @@ hr {
     padding: 10px;
     color: #074fa1;
     background-color: #a9a9a97e;
-    border: 2px solid #3a3a3a;
+    border: 2px solid #8a8a8a;
 }
 
 .to-submit {
@@ -430,7 +429,7 @@ hr {
     text-align: center;
     color: #fff;
     background-color: #074fa1;
-    border: 2px solid #3a3a3a;
+    border: 2px solid #8a8a8a;
 }
 
                                                       /* end-submit-listings */
@@ -457,7 +456,7 @@ hr {
 .footer_text {
     width: 36%;
     padding: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 16px;
 }
