@@ -1,10 +1,10 @@
 /* COLORS
 
+#2c2c2c = nightrider(gray)
 #d3d3d3 = lightgray
 #a9a9a9 = darkgray
 #d1d1d1 = gray82
 #8a8a8a = gray54
-#3a3a3a = dark red
 #074fa1 = endeavour/cyan blue 
 #12a112 = la palma/luminous green
 
@@ -289,7 +289,7 @@ hr {
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color: #8a8a8a;
 }
 
 .submit-listings_packages_container {
@@ -327,7 +327,7 @@ hr {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     text-align: center;
-    color: #3a3a3a;
+    color: #8a8a8a;
 }
 
 .submit-listings_text-abc {
@@ -335,7 +335,7 @@ hr {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     text-align: center;
-    color: #3a3a3a;
+    color: #8a8a8a;
 }
 
 .submit-listings_info-container {
@@ -349,7 +349,7 @@ hr {
     width: 32%;
     padding: 14px;
     text-align: center;
-    background-color: #3a3a3a95;
+    background-color: #8a8a8a95;
     box-shadow: 2px 2px 2px 2px;
 }
 
