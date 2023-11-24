@@ -1,10 +1,8 @@
 /* COLORS
 
-#d3d3d3 = lightgray
-#a9a9a9 = darkgray
+#a4a4a4 = darkgray
 #d1d1d1 = gray82
 #8a8a8a = gray54
-#3a3a3a = dark red
 #074fa1 = endeavour/cyan blue 
 #12a112 = la palma/luminous green
 
@@ -27,7 +25,6 @@ body {
     box-sizing: border-box;
     width: 100vw;
     font-size: 100%;
-    background-color: #d3d3d3;
 }
 
 html {
@@ -361,7 +358,7 @@ hr {
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 200;
     background-color: transparent;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #8a8a8a;
 }
 
 .contact_form-button {
@@ -372,11 +369,11 @@ hr {
     border-radius: 20px;
     padding: 10px 45px;
     background-color: transparent;
-    border: 1px solid #3a3a3a;
+    border: 1px solid #8a8a8a;
 }
 
 .contact_form-button:hover {
-    background-color: #3a3a3a;
+    background-color: #8a8a8a;
     color: #fff;
     border: none;
 }
@@ -434,8 +431,6 @@ hr {
     justify-content: center;
 }
 
-
-
 .section_contact_location-container {
     width: 100%;
     height: 100%;
@@ -451,7 +446,7 @@ hr {
     font-size: 34px;
     font-family: 'Cantarell', sans-serif;
     font-weight: 600;
-    color: rgb(7, 79, 161);
+    color: #074fa1;
 }
 
 .section_contact_location-text {
@@ -475,7 +470,7 @@ hr {
     margin-bottom: 10px;
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 600;
-    color: rgb(7, 79, 161);
+    color: #074fa1;
 }
 
 .section_contact_location-bottom-text {
@@ -500,8 +495,8 @@ hr {
 @keyframes change {
     0%   {background-color: #ffffff91;}
     /* 25%  {background-color: rgb(141, 141, 58);} */
-    50%  {background-color: rgb(7, 79, 161);}
-    100% {background-color: #3a3a;}
+    50%  {background-color: #074fa1;}
+    100% {background-color: #12a112;}
   }
 
 
