@@ -1,10 +1,8 @@
 /* COLORS
 
-#d3d3d3 = lightgray
-#a9a9a9 = darkgray
+#5e5e5e = gray37
 #d1d1d1 = gray82
 #8a8a8a = gray54
-#3a3a3a = dark red
 #074fa1 = endeavour/cyan blue 
 #12a112 = la palma/luminous green
 
@@ -27,8 +25,6 @@ body {
     box-sizing: border-box;
     width: 100vw;
     font-size: 100%;
-    background-color: #d3d3d3;
-    
 }
 
 html {
@@ -454,12 +450,12 @@ hr {
 
 .about_our-team_staff-button {
     padding: 12px 75px;
-    background-color: #1e821e;
+    background-color: #12a112;
     border: none;
 }
 
 .about_our-team_staff-button:hover {
-    background-color: #a9a9a9;
+    background-color: #5e5e5e;
     padding: 14px 85px;
 }
 
