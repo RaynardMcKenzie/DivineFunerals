@@ -100,6 +100,7 @@ html {
 
 .navsection_social_brand:hover {
     font-size: 30px;
+    transition: all 1s ease-in-out;
 }
 
 hr {
@@ -148,8 +149,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 120px;
-    z-index: 1;
-    
+    z-index: 1;   
 }
 
 .company-name {
